@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className=" navbar z-20 h-8 flex text-sm font-poppins items-center my-2 fixed justify-center text-black w-11/12 bg-white mx-7 gap-3">
       <h1 className="title mr-[10rem] text-black font-semibold">Trippy</h1>
-      <div className="gap-1 flex flex-col lg:flex-row items-center ">
+      <div className="gap-1 flex flex-col  items-center ">
       {
         MenuItems.map((items,index)=>{
           return(
